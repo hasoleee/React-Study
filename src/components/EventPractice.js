@@ -13,7 +13,7 @@ class EventPractice extends Component{
          <input //input 요소를 렌더링하는 코드
           type="text"
           name="message"
-          placeholder="입력"
+          placeholder="입력하세요"
           value={this.state.message}
           onChange={
               (e)=>{
